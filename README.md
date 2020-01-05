@@ -1,6 +1,13 @@
-# docker
+# hello-gcp
 
 ## INSTALLL 
+
+**git**
+
+```
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+sudo apt update && apt-get -y install git git-lfs && git lfs install
+```
 
 **google compute engine**
 
@@ -20,3 +27,4 @@ logout
 Cheers, 
 
 J. 
+
