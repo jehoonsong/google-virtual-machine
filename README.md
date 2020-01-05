@@ -7,6 +7,9 @@
 ```
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
 sudo apt update && sudo apt-get -y install git git-lfs && git lfs install
+
+git config --global user.email "jehoon.song@net-targets.com"
+git config --global user.name "Je-Hoon Song"
 ```
 
 **google compute engine**
