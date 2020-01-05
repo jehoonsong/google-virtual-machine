@@ -14,7 +14,7 @@ git config --global user.name "Je-Hoon Song"
 git config credential.helper 'cache'
 ```
 
-**google compute engine**
+**docker**
 
 ```
 sudo apt update
