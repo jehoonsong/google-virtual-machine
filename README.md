@@ -26,7 +26,3 @@ sudo usermod -aG docker $USER
 # logout and then re-login
 logout 
 ```
-
-Cheers, 
-
-Je-Hoon Song
