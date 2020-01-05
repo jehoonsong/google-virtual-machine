@@ -1,4 +1,4 @@
-# hello-gcp
+# HELLO-GCP
 
 ## INSTALLL 
 
