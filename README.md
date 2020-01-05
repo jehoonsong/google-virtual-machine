@@ -1,4 +1,6 @@
-# HELLO-GCP
+# hello-gcp 
+
+Basic assumption is that you are using **ubuntu**.
 
 ## INSTALLL 
 
