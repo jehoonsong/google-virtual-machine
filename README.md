@@ -26,5 +26,4 @@ logout
 
 Cheers, 
 
-J. 
-
+Je-Hoon Song
