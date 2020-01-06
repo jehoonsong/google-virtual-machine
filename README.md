@@ -75,7 +75,9 @@ apt-get update && \
 sudo docker run --rm nvidia/cuda nvidia-smi
 ```
 
-**docker for cuda**
+**containers for CUDA**
+
+You can choose various version of cuda for your specific project. 
 
 ```bash
 git clone https://gitlab.com/nvidia/container-images/cuda.git
