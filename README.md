@@ -27,3 +27,9 @@ sudo usermod -aG docker $USER
 # logout and then re-login
 logout 
 ```
+
+**cuda**
+
+```
+git clone https://gitlab.com/nvidia/container-images/cuda.git
+```
