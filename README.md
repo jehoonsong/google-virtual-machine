@@ -29,7 +29,7 @@ git config credential.helper 'cache'
 ```
 
 **docker**
-```
+```bash
 # Install docker-ce
 # https://docs.docker.com/install/linux/docker-ce/ubuntu/
 sudo apt-get update && sudo apt-get install -y \
