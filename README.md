@@ -28,7 +28,7 @@ sudo usermod -aG docker $USER
 logout 
 ```
 
-**cuda**
+**docker for cuda**
 
 ```bash
 git clone https://gitlab.com/nvidia/container-images/cuda.git
@@ -42,4 +42,11 @@ export OS="ubuntu16.04"
 docker build -t "${IMAGE_NAME}:${CUDA_VERSION}-base-${OS}" "dist/${OS}/${CUDA_VERSION}/base"
 docker build -t "${IMAGE_NAME}:${CUDA_VERSION}-runtime-${OS}" --build-arg "IMAGE_NAME=${IMAGE_NAME}" "dist/${OS}/${CUDA_VERSION}/runtime"
 docker build -t "${IMAGE_NAME}:${CUDA_VERSION}-devel-${OS}" --build-arg "IMAGE_NAME=${IMAGE_NAME}" "dist/${OS}/${CUDA_VERSION}/devel"
+```
+
+```
+docker run --runtime=nvidia nvidia/cuda:10.0-base nvidia-smi
+
+# If you have 4 GPUs, to isolate GPUs 3 and 4 (/dev/nvidia2 and /dev/nvidia3)
+docker run --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=2,3 nvidia/cuda:10.0-base nvidia-smi
 ```
