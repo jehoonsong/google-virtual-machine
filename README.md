@@ -44,7 +44,7 @@ sudo dpkg -i ./cuda-repo-ubuntu1604_${CUDA_VERSION}-1_amd64.deb
 sudo apt-get update && sudo apt-get install -y --no-install-recommends cuda=${CUDA_VERSION}-1
 sudo rm ./cuda-repo-ubuntu1604_${CUDA_VERSION}-1_amd64.deb
 
-ln -s cuda-9.0 /usr/local/cuda
+sudo ln -s cuda-9.0 /usr/local/cuda
 
 sudo sh -c 'echo "/usr/local/nvidia/lib" >> /etc/ld.so.conf.d/nvidia.conf'
 sudo sh -c 'echo "/usr/local/nvidia/lib64" >> /etc/ld.so.conf.d/nvidia.conf'
