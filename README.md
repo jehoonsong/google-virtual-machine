@@ -71,9 +71,6 @@ apt-get update && \
         apt-get clean && \
         sudo rm -rf /var/lib/apt/lists/*
 
-sudo shutdown now 
-# then, restart 
-
 # Test
 sudo docker run --rm nvidia/cuda nvidia-smi
 ```
