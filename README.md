@@ -73,18 +73,6 @@ sudo rm -rf /var/lib/apt/lists/*
 ```
 
 **docker**
-
-```bash
-#sudo apt update
-#sudo apt install --yes apt-transport-https ca-certificates curl gnupg2 software-properties-common
-#sudo apt install -y docker.io
-#sudo usermod -aG docker $USER
-#
-# logout and then re-login
-#logout 
-```
-
-**docker**
 ```bash
 # Install docker-ce
 # https://docs.docker.com/install/linux/docker-ce/ubuntu/
