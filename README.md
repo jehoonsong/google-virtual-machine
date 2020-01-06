@@ -36,7 +36,7 @@ sudo sh -c 'echo "deb https://developer.download.nvidia.com/compute/machine-lear
 export CUDA_VERSION=9.0.176
 export CUDA_PKG_VERSION=9-0=$CUDA_VERSION-1
 
-sudo apt-get update && apt-get install -y --no-install-recommends \
+sudo apt-get update && sudo apt-get install -y --no-install-recommends \
         cuda-cudart-$CUDA_PKG_VERSION
 
 curl -O http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_${CUDA_VERSION}-1_amd64.deb
