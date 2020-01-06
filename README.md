@@ -1,4 +1,4 @@
-# hello-gcp 
+# google-virtual-machine 
 
 Basic assumption is that you are using **ubuntu**.
 
