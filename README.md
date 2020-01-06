@@ -6,7 +6,7 @@ Basic assumption is that you are using **ubuntu**.
 
 **git**
 
-```
+```bash 
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
 sudo apt update && sudo apt-get -y install git git-lfs && git lfs install
 
@@ -18,7 +18,7 @@ git config credential.helper 'cache'
 
 **docker**
 
-```
+```bash
 sudo apt update
 sudo apt install --yes apt-transport-https ca-certificates curl gnupg2 software-properties-common
 sudo apt install -y docker.io
