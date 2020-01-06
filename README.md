@@ -17,7 +17,7 @@ git config credential.helper 'cache'
 ```
 
 **cuda**
-```
+```bash
 # Install NVIDIA drivers
 # sudo apt-get update && sudo add-apt-repository ppa:graphics-drivers/ppa -y && \
 # sudo apt-get update && sudo apt-get install nvidia
