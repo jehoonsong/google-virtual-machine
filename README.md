@@ -28,6 +28,11 @@ sudo usermod -aG docker $USER
 logout 
 ```
 
+**nvidia-docker**
+```
+
+```
+
 **docker for cuda**
 
 ```bash
