@@ -1,6 +1,6 @@
 # google-virtual-machine 
 
-Basic assumption is that you are using **ubuntu**.
+basic setup for google virtual machine. Basic assumption is that you are using **ubuntu**.
 
 ## INSTALLL 
 
@@ -16,7 +16,7 @@ git config --global user.name "Je-Hoon Song"
 git config credential.helper 'cache'
 ```
 
-**cuda**
+**nVIDIA drivers**
 ```bash
 # Install NVIDIA drivers
 # sudo apt-get update && sudo add-apt-repository ppa:graphics-drivers/ppa -y && \
